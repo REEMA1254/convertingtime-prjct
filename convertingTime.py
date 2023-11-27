@@ -8,3 +8,10 @@ def convert_to_24_hour(hour, minute, period):
         hour += 12
 
     return f"{hour:02d}{minute:02d}"
+
+hour = 5
+minute = 30
+period = "pm"
+
+result = convert_to_24_hour(hour, minute, period)
+print (f"{result}")
